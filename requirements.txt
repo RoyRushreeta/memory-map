@@ -1,0 +1,39 @@
+# MCP dependencies
+fastmcp==2.12.3
+mcp>=1.12.4
+mcp[cli]
+
+# Windows-specific dependencies
+pywinauto>=0.6.9
+pywin32>=311
+pyautogui>=0.9.54
+
+# Google Generative AI
+google-generativeai
+
+# Environment variable management
+python-dotenv
+uv
+
+# OCR dependencies
+pytesseract==0.3.13
+Pillow>=11.0.0
+
+# Translation
+deep-translator==1.10.1
+langdetect
+
+# For async operations
+asyncio
+
+# Data validation
+pydantic
+
+# Web framework
+streamlit
+folium
+streamlit-folium
+
+# Vector database and embeddings
+sentence-transformers
+faiss-cpu
